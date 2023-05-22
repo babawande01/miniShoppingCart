@@ -86,3 +86,9 @@ document.getElementById('bag-minus').addEventListener('click', function () {
     updateProductNumber('bag', 100, false);
 });
 
+let icon = document.querySelector('ion-icon');
+icon.onclick = function(){
+  icon.classList.toggle('active');
+}
+
+// like button

@@ -3,16 +3,19 @@
 
 <head>
     <title>Shopping Cart</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" rel="stylesheet" />
-    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="css/style.css" rel="stylesheet" />
 </head>
 
 <body>
-
     <section>
         <div class="container">
             <h2>My shopping cart</h2>
@@ -21,88 +24,98 @@
                     <div class="cart-item">
                         <div class="row">
                             <div class="col-md-7 center-item">
-                                <img src="img/phone.jpg" alt="">
+                                <img src="img/phone.jpg" alt="" />
                                 <h5>Tecno Phone</h5>
                             </div>
 
                             <div class="col-md-5 center-item">
                                 <div class="input-group number-spinner">
-                                    <button id="phone-minus" class="btn btn-default"><i
-                                            class="fas fa-minus"></i></button>
+                                    <button id="phone-minus" class="btn btn-default">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
                                     <input id="phone-number" type="number" min="0" class="form-control text-center"
-                                        value="0">
-                                    <button id="phone-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
+                                        value="0" />
+                                    <button id="phone-plus" class="btn btn-default">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
                                 </div>
                                 <h5>$<span id="phone-total">0</span></h5>
-                                <img src="images/remove.png" alt="" class="remove-item">
+                                <img src="images/remove.png" alt="" class="remove-item" />
                             </div>
                         </div>
                     </div>
 
+                    
+                    
                     <div class="cart-item">
                         <div class="row">
                             <div class="col-md-7 center-item mx-auto">
-                                <img src="img/shoe.jpg" alt="">
+                                <img src="img/shoe.jpg" alt="" />
                                 <h5>Canvas</h5>
                             </div>
                             <div class="col-md-5 center-item">
                                 <div class="input-group number-spinner">
-                                    <button id="shoe-minus" class="btn btn-default"><i
-                                            class="fas fa-minus"></i></button>
+                                    <button id="shoe-minus" class="btn btn-default">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
                                     <input id="shoe-number" type="number" min="0" class="form-control text-center"
-                                        value="0">
-                                    <button id="shoe-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
-
+                                        value="0" />
+                                    <button id="shoe-plus" class="btn btn-default">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
                                 </div>
                                 <h5>$<span id="shoe-total">0</span></h5>
-                                <img src="images/remove.png" alt="" class="remove-item">
+                                <img src="images/remove.png" alt="" class="remove-item" />
                             </div>
                         </div>
                     </div>
                     <div class="cart-item">
                         <div class="row">
                             <div class="col-md-7 center-item mx-auto">
-                                <img src="img/fan.jpg" alt="">
+                                <img src="img/fan.jpg" alt="" />
                                 <h5>Ceiling Fan</h5>
                             </div>
                             <div class="col-md-5 center-item">
                                 <div class="input-group number-spinner">
-                                    <button id="fan-minus" class="btn btn-default"><i
-                                            class="fas fa-minus"></i></button>
+                                    <button id="fan-minus" class="btn btn-default">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
                                     <input id="fan-number" type="number" min="0" class="form-control text-center"
-                                        value="0">
-                                    <button id="fan-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
-
+                                        value="0" />
+                                    <button id="fan-plus" class="btn btn-default">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
                                 </div>
                                 <h5>$<span id="fan-total">0</span></h5>
-                                <img src="images/remove.png" alt="" class="remove-item">
+                                <img src="images/remove.png" alt="" class="remove-item" />
                             </div>
                         </div>
                     </div>
                     <div class="cart-item">
                         <div class="row">
                             <div class="col-md-7 center-item mx-auto">
-                                <img src="img/bag.jpg" alt="">
+                                <img src="img/bag.jpg" alt="" />
                                 <h5>Hand Bag</h5>
                             </div>
                             <div class="col-md-5 center-item">
                                 <div class="input-group number-spinner">
-                                    <button id="bag-minus" class="btn btn-default"><i
-                                            class="fas fa-minus"></i></button>
+                                    <button id="bag-minus" class="btn btn-default">
+                                        <i class="fas fa-minus"></i>
+                                    </button>
                                     <input id="bag-number" type="number" min="0" class="form-control text-center"
-                                        value="0">
-                                    <button id="bag-plus" class="btn btn-default"><i class="fas fa-plus"></i></button>
-
+                                        value="0" />
+                                    <button id="bag-plus" class="btn btn-default">
+                                        <i class="fas fa-plus"></i>
+                                    </button>
                                 </div>
                                 <h5>$<span id="bag-total">0</span></h5>
-                                <img src="images/remove.png" alt="" class="remove-item">
+                                <img src="images/remove.png" alt="" class="remove-item" />
                             </div>
                         </div>
                     </div>
 
                     <div class="cart-item">
                         <div class="row">
-
                             <div class="col-md-8">
                                 <h5>Total:</h5>
                             </div>
